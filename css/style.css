@@ -1,0 +1,54 @@
+html,
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 12px;
+}
+
+content {
+    height: 15%;
+    top: 0;
+    left: 0;
+}
+
+#toggleborder {
+  background-color: #34F6F2;
+}
+
+#list li:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, #f85032 , #e73827);
+    color: white;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#list {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+#searchattributes {
+    width: 100%;
+    display: inline-block;
+}
+
+#inputtext {
+    width: 78%;
+    display: inline-block;
+    margin: 0;
+}
+
+#searchbutton {
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+}
